@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="bbit_target.Left" size="1.000000 0.998008"/>
+        <ImageTarget name="bbit_target.Bottom" size="1.000000 0.996071"/>
+        <ImageTarget name="bbit_target.Top" size="1.000000 0.996063"/>
+        <ImageTarget name="bbit_target.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="bbit_target.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="bbit_target.Front" size="1.000000 0.996078"/>
+        <MultiTarget name="bbit_target">
+            <Part name="bbit_target.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="bbit_target.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="bbit_target.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="bbit_target.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="bbit_target.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="bbit_target.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
